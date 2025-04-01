@@ -101,6 +101,51 @@ int main() {
 
 
 
+    printf("Carta 2\n");
+
+printf("Insira Uma letra de A a H (representando um dos oito estados): ");
+   scanf("%s", &estado2);
+
+printf("Insira a letra do estado seguida de um número de 01 a 04 (ex: A01, B03): ");
+   scanf("%s", &codigo2);
+
+printf("Insira o nome da cidade: ");
+   scanf("%s", &nome2);
+
+   printf("Insira o número de habitantes da cidade: ");
+    scanf("%d", &populacao2);
+
+    printf("Insira a área da cidade em quilômetros quadrados: ");
+     scanf("%f", &area2);
+
+    printf("Insira o PIB da cidade: ");
+     scanf("%f", &pib2);
+
+     printf("Insira o número de Pontos Turísticos: ");
+      scanf("%d", &pt2);
+     
+     
+     
+      printf("Carta 2\n");
+
+      printf("Estado: %s\n", estado2);
+      
+      printf("Código: %s\n", codigo2);
+      
+      printf("Cidade: %s\n", nome2);
+      
+      printf("População: %d\n", populacao2);
+      
+      printf("Área: %.2f\n", area2);
+      
+      printf("PIB: %.2f\n", pib2);
+      
+      printf("Número de Pontos Turísticos: %d\n", pt2);
+
+
+
+
+
 
 
 
