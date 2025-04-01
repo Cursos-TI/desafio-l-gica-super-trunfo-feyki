@@ -153,7 +153,17 @@ printf("Insira o nome da cidade: ");
          float densidade2 = populacao2/area2;
               printf("Densidade populacional: %.2f\n", densidade2);
 
-
+              
+              
+              
+              
+              printf("Carta 1\n");
+              float percapita = pib/populacao;
+              printf("Pib per capita: %.2f\n", percapita);
+ 
+              printf("Carta 2\n");
+              float percapita2 = pib2/populacao2;
+              printf("Pib per capita: %.2f\n", percapita2);
 
 
 
