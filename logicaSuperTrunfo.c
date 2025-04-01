@@ -39,5 +39,46 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
+    char estado; 
+    char codigo[3];
+    char nome[20];
+    int populacao;
+    float area;
+    float pib;
+    int pt;
+    char estado2[1]; 
+    char codigo2[3];
+    char nome2[20];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pt2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
