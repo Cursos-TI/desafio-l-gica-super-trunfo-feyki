@@ -142,6 +142,17 @@ printf("Insira o nome da cidade: ");
       
       printf("Número de Pontos Turísticos: %d\n", pt2);
 
+     
+     
+      printf("Carta 1\n");
+         float densidade = populacao/area;
+              printf("Densidade populacional: %.2f\n", densidade);
+             
+
+              printf("Carta 2\n");
+         float densidade2 = populacao2/area2;
+              printf("Densidade populacional: %.2f\n", densidade2);
+
 
 
 
