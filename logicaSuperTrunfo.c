@@ -156,7 +156,6 @@ printf("Insira o nome da cidade: ");
               
               
               
-              
               printf("Carta 1\n");
               float percapita = pib/populacao;
               printf("Pib per capita: %.2f\n", percapita);
@@ -166,7 +165,13 @@ printf("Insira o nome da cidade: ");
               printf("Pib per capita: %.2f\n", percapita2);
 
 
-
+              printf("Determinador de carta vencedeora: Densidade Populacional, a carta com o menor valor vence.\n");
+             
+              if(densidade<densidade2){
+          printf(" A cidade vencedora é: %s\n", nome);}
+         
+          else{printf(" A cidade vencedora é: %s\n", nome2);}
+ 
 
 
 
